@@ -23,6 +23,7 @@ class Song
     unlesss self.artist == nil
     @artist.name
   end
+  end
 
 
 
