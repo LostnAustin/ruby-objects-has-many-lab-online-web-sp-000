@@ -7,7 +7,7 @@ class Song
     #@title = title
 
     @name = name
-
+    @@all << self
   end
 
   def artist=(artist)
@@ -18,5 +18,7 @@ class Song
   def all
     @@all
   end
+
+  
 
 end
