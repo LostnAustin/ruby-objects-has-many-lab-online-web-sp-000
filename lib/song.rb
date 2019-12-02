@@ -20,7 +20,7 @@ class Song
   end
 
   def artist_name
-    unlesss self.artist == nil
+    unless self.artist == nil
     @artist.name
     end
   end
