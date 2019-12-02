@@ -22,7 +22,7 @@ class Song
   def artist_name
     unlesss self.artist == nil
     @artist.name
-  end
+    end
   end
 
 
